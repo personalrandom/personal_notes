@@ -54,7 +54,7 @@ Is my phase 3 optimized ?
     SULT and UGT
 --------------------------
 == Quinones metabolism
-=== 1- to hydroquinones : NOQ1
+=== 1- quinone to hydroquinones : NQO1
 ==== Sources
 https://www.geneticlifehacks.com/detox-genes-nqo1/
 https://www.geneticlifehacks.com/nrf2-pathway/
@@ -63,7 +63,22 @@ rs1800566 : Intermediate enzyme function
 rs1131341 : Unknown enzyme activity (TODO)
 ==== Upregulation
 - Nrf2 pathway
-    
+- Supplements
+    Resveratrol
+    Quercetin
+==== Research
+This shows that quinones are reversed with NADPH (encoded by NQO1 gene)
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2922465/
+==== Todos
+What's NAD+/NADH
+    + full cycle : this seems interesting https://www.reddit.com/r/Biohackers/comments/16nk13l/niacin_increases_this_mans_nad_levels_more_than/
+is Nicotinamide riboside an inducer for NAD ?
+    What about Nicotinamide monouncleotide ?
+        (I think both are NAD+ activators)
+        They're B3 ?
+Understand this quinone cycle perfectly
+Do you need to IV NAD+ and Glutathione ?
+    They say no need to supplement NAD directly but just the precursors NMN
 -------------------------
 == Other todos
 Am I slow CYP2D6
@@ -77,3 +92,5 @@ How to increase glutathione
 What's NAD+ and NMN
     Can they support the liver
 Need to upregulate NOQ1 gene (quinone to hydroquinone)
+Glutathione cycle
+Do I have enough B6 ?
