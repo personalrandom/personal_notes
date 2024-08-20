@@ -1,0 +1,18 @@
+ICSSG
+	pru silicon 4 ?
+
+Need :
+- pru asm syntax highlight for sublime text
+	how to force .h files to pru asm too
+- compile the whole thing on ccs
+- flash and step by step debug
+	- might need r5 or linux running
+
+- eclipse color theme monokai :
+	help -> eclipse marketplace
+		search for Eclipse Color Theme and install
+	window preferences appearance color theme
+		sublime text monokai extended
+---
+
+Whats the clock of prus ?

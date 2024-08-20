@@ -1,0 +1,21 @@
+Time managment
+
+Weekdays :
+1h30 lost on workout + preparing food / day
+30minutes on eating and stuff
+
+20h- 00h : 
+	4 hours per day for own projects
+--
+weekend :
+2h on stuff
++1h rest
+(maybe 2 hours sometimes for a movie)
+	10-12 hours per day for own projects
+
+----
+This is equivalent to : 20h + 12*2 = 44h/7 = 5.7-6.3 worked days.
+	=> Even if you don't work on linux in work time, you can work on it more than you normally would.
+
+----
+Personal project = work linux stuff that needs to be done as long as it's not finished.

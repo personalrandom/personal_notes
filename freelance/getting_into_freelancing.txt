@@ -1,0 +1,46 @@
+How to get into freelancing ?
+
+Elsys design bureau d'etude thing
+	Philippe Bourgault : likes you
+	Tell them if you have extra work, I can do it and you take 15% (10% is the goal)
+
+Contact nicolas gillotin
+
+
+Schneider Electric
+Evlink
+	They will definitly have some needs.
+	They like you
+Julien michel
+	Keep contact with him for technical expertise ideas
+Mark Vos
+	Likes patisseries
+	Likes your expertise
+	Has lots of influence
+
+Other people we will work with
+	We need to start getting more exposure
+		Always do presentations to other teams people etc
+		Always try to meet people that do same stuff as you and introduce what you can do
+	Clients :
+		P3Y : China
+		P5 : China
+		Virtualisation guys : Lattes
+		Curling server side : Lattes
+		X : Lattes
+			To discover when going to hackathon
+		Fidel and guys : Spain
+
+You make clients when you work with them and deliver exceptional results
+
+Exposure ways :
+	opensource projects contributions
+		Best way
+	Doing tutorials/courses/formations/workshops
+		your own website
+		your own youtube channel
+		
+	Doing presentations
+		For elsys design for free for example
+
+Can you work with linaro/ubuntu/others freelance mode

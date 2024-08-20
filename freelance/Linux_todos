@@ -1,0 +1,13 @@
+Linux things to understand
+
+Whole Linux PCI stack
+Divide linux source code into blocks
+    Get generic view of components
+ARM GIC
+Linux irq stack
+Linux scheduler
+Linux preempt_rt patch
+All Kernel interfaces with userspace apps
+Everything in kernel/
+Linux GPIO stack
+Linux network stack

@@ -1,0 +1,19 @@
+Kernel technical projects
+Note : If you need a target, use am64x sk
+
+
+Project : Understand all elements of linux kernel
+	Use books + code + research
+	1- List all elements : scheduler; drivers; etc
+	2- Understand what's the role of each (high level understanding)
+	3- Understand how they're connected
+	Final goal : You need to understand really how the code works.
+
+
+Interesting EOC needs :
+	HSR support on linux is shit
+		no vlan
+		buggy
+	PTP
+	Virtualisation
+	

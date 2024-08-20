@@ -1,0 +1,121 @@
+Network scheduler linux
+
+
+interfaced with using tc (traffic control)
+
+Network scheduling resources :
+https://en.wikipedia.org/wiki/Network_scheduler#Linux_kernel
+
+network scheduler : 
+	aka qdisc (queueing discipline)
+
+
+
+Goal : Create a queue that hold the packets of one classification only :
+	for goose  traffic only.
+
+There are several algorithms for queueing, and several of these algorithms are kernel modules.
+	whats the default algorithm in linux, if theres any ?
+		pfifo_fast
+		but systemd 217+ uses fq_codel
+		how to ask linux which algorithm is used?
+		Looks like tc documentation talks about theses algorithms as CLASSLESS QDISCS
+
+	how to find out which qdisc is used by a network interface
+
+Which qdisc I think matches our use case ?
+	PRIO : allows for easy prioritization of traffic,
+              where lower classes are only able to send if higher ones
+              have no packets available
+
+classes have default leaf qdisc
+	its by default pfifo => it can be replaced with some other qdisc.
+	
+some queue disciplines contains classes they're called classfull qdiscs
+	each class has it's qdisc and by default have a leaf qdisc ?
+
+classless qdiscs :
+	for me they're like a simple function block that does one thing : example a simple fifo
+
+When a packet enters a qdisc that has classes inside of it (classful qdisc), it can be classified to one of the classes within it, classification is done with these criteria :
+	- tc filters : tc filters are consulted at first, if a packet matches the tc filter of the class inside the qdisc, it will be classified into that class.
+		What happens when it's classified into a class ?
+	- type of service: ?? Not the focus of the tc manual
+	- skb->priority : ?? Not the focus of the tc manual
+	+++ Maybe we'll just focuse on the tc filter classification.
+	If classification is not succeeded, the packet is enqueued to the leaf qdisc (by default a pfifo)
+
+
+pfifo
+	pure First In, First Out queue: does no processing at all.It does however store traffic when the network interface can't handle it momentarily.
+
+
+What happens when a packet is classified withing a qdisc subclass (caught by a tc filter) ?
+	
+Why is there classless qdiscs ? Do we need them ?
+	They automatically do stuff for you vs you manually choosing everything.
+	+++++Revisit this .
+	ingress is a classless qdisc.
+
+
+
+
+berkeley packet filter bpf
+	what is it ?
+	do we need it ?
+	I think you need to look at it more, but later
+
+Benoit thing :
+	ifb successor to imq : ignore for now
+	
+	
+----------------
+Which qdisc do I think I need:
+	PRIO : non-shaping container for a configurable number of classes which are dequeued in order. This allows for easy prioritization of traffic, where lower classes are only able to send if higher ones have no packets available.
+	https://man7.org/linux/man-pages/man8/tc-prio.8.html
+
+
+----------
+qdiscs that are classful are manually configured by filters + some other stuff ?
+filters, from my understanding, are only used by classfull qdiscs.
+filters:
+	used by CLASSFUL qdiscs
+	if a packet matches a filter, it is classified at the subclass that uses that filter. What happens next is up to that subclass.
+	basic : looks promising ?
+	bpf : nah
+	cgroup : used in the context of cgroups
+	fwmark : uses marks marked by linux firewall iptables
+	matchall : matches all packets.
+		use case : mirror an input from eth0 and output it on eth1.
+	u32: lol: u stands for universal/ugly. looks like the most powerfull filter (most configurable)
+		this is the one to use.
+
+-----------
+What qdisc does an interface have by default ?
+
+Do we add a new qdisc to an interface or do we modify the one by default ?
+
+Can you have multiple qdiscs for an interface ?
+
+do classless qdiscs like ingress have leaf qdisc too ?
+
+Can you manage ingress without ingress qdisc ?
+
+------
+netfilter ?
+	what is netfilter
+
+----------
+What about XDP ?
+
+looks like it's faster ?
+--------
+classes I need
+	PRIO inside HTB class
+-----------
+kernel needs to be compiled with the wanted qdiscs and options for filters supported
+tc also needs to be compiled to support the qqdiscs that one wants to use
+
+--------
+Understand how https://man7.org/linux/man-pages/man7/packet.7.html
+	where is it sent, does it go through the egress qdisc. ?

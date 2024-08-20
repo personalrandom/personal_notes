@@ -1,0 +1,312 @@
+projects
+
+linux from scratch on a vm/qemu:
+	learn moreabout cross compiling and shit 
+	make your own package manager or understand how to use a package manager with your own packages.
+	how would you update the kernel ?
+	then just use arch? or Gentoo ?
+
+how kernel module building really works ??
+
+---
+make an android rom using AOSP : android open source project 
+	https://www.androidauthority.com/build-custom-android-rom-720453/
+	
+	buy a pixel 3 phone and play with it
+	play with phone stuff.
+
+	make a secure phone.
+	
+	frdoid
+	
+	https://bootlin.com/doc/legacy/android/android-agenda.pdf
+	
+	understanding the linux graphics stack : https://bootlin.com/training/graphics/ https://bootlin.com/doc/training/graphics/graphics-slides.pdf
+	
+----
+linux rt 
+	https://bootlin.com/blog/preempt-rt-training-course/
+	
+----
+boot time optimization
+	https://bootlin.com/training/boot-time/
+	
+	UBI Fastmap
+	reduce initramfs
+	Kernel initialization time debug with initcall_debug to the kernel command line
+
+------
+Use stm32mp1
+
+Learning debugging and tracing on linux.
+https://bootlin.com/internships/2022/stage-debugging-tracing.pdf
+learning to use valgrind.
+
+Learning more about OTA updates of linux : other than rauc
+	https://bootlin.com/internships/2022/stage-ota.pdf
+
+Learning more about linux utilities
+
+Learning more about rtc
+	https://bootlin.com/internships/2022/stage-rtc-ntp.pdf
+
+Learn about tracking security issues not using bdba but using yocto directly
+	https://bootlin.com/internships/2022/stage-securite-bsp.pdf
+
+Understand more about toolchains
+	https://bootlin.com/internships/2022/stage-toolchains.pdf
+
+Understand more about qemu
+
+Understand more about graphics on linux
+	https://bootlin.com/fr/formation/graphisme/
+
+Understand more about audio on linux
+	https://bootlin.com/fr/formation/graphisme/
+
+https://www.blaess.fr/christophe/
+
+-------
+take stm32mp1 card and master it. do the bootlin intership projects
+	https://bootlin.com/fr/blog/stages-2022/
+	bootlin have a partnership with st.
+	you can maybe join st like this.
+	Understand arm trustzone using this as an example
+	undestand optee
+	understand the different ways of flashing the target, you know dfu, what are other ways ?
+		change device tree on the fly
+		change kernel only
+	Use some peripherals on the target if you can.
+	Use all eval board features: 
+		including the controllable voltage regulator.
+		including the secure elements
+		audio
+		lcd
+	++ Upstream everything on it..
+	Boot from flash nor flash nand usb stick anything
+	Maybe buy some hardware you're interested in? and port it
+--------
+understand arm trust zone 
+	example: Create a crypto service inside trustzone, and an application on the outside. Use that application to try to gain unauthorized access to keys, control registers, etc.
+	https://www.reddit.com/r/embedded/comments/r6hq89/what_could_be_an_interesting_embedded_application/
+	
+---------
+reverse engineering stuff
+	https://shkspr.mobi/blog/2015/11/reverse-engineering-the-bmw-i3-api/
+	
+--------
+linker file https://blog.thea.codes/the-most-thoroughly-commented-linker-script/
+
+-----------
+Simulate cybersecurity attacks locally :
+	man in the middle attack to ssl strip.
+
+Implement attacks for cve vulnerabilities
+	find a tool like bdba but free
+	You really need to understand thouroughly the vulnerability and not just rush it.
+	Make a patch for the cve without looking at the solution if it exists.
+	start by windows apps : example notepad++
+	linux user space stuff : openssl, tools that you use in your own linux embedded project.
+	linux kernel stuff/uboot in general of your own project.
+	
+	
+Find an interesting open source project and contribute to it
+	linux
+	uboot
+	optee
+	some user space tool
+
+------------
+about the project :
+- The priority should be staying in linux, once mastered enough move to android, other embedded stuff/etc.
+	this means mastering everything about linux and embedded linux : uboot kernel optee user space
+- Then go see windows
+----------
+Learn more about http attacks and http stuff in general
+	like attacking fields with spaces
+----------
+Learn about assembly
+learn about compiler, linker
+learn about how a processor executes code at run time
+what are debug symbols, optimization
+Learn about reverse engineering a binary.
+	a mcu binary
+	linux binaries
+	uboot binary
+	linux user space app binary
+	linux .so lib
+	windows app binary
+	windows dll lib
+---------
+Understand higher level tcp protocols, those used in online games.
+	see how's the basics work
+	reverse engineer them
+
+End game : attack dofus
+--------
+Network in general
+Low level stuff:
+	ethernet (layer 2):
+		send ethernet frames / receive them using linux, play with them
+			goose and ethernet types and priority levels	
+		ethernet level attacks 
+			attack a switch table and make it broadcast
+		Use a hardware configurable ethernet controller or switch and play with it
+			filters/ priorities
+		understand more about vlan
+		ARP
+		what more ?
+	Wifi (layer 1):
+		understand more about the wifi radio layer
+	wifi (layer 2):
+		is it the same as ethernet ?
+	Ip link (layer 3):
+		DHCP
+		ICMP
+		what more ?
+	TCP/UDP/others(layer 4):
+		Get more in depth into tcp and udp might give you more ideas.
+		Understand what else could be in layer 4
+	app layer (layer 5):
+		HTTP
+			stream type is what ?
+		SSL/TLS
+		what else ?
+	linux network stack
+	reverse engineering network protocols (used on games for ex)
+	simulate all vulnerabilities
+
+good book
+	Computer Networks
+---------
+Linux env in general
+What types of partitions are used in embedded : cpio, squashfs what else ?
+read only rootfs 
+
+---------
+Linux kernel
+Understand how kernel module compilation works, does it have something to do with the config ?
+	maybe the headers contain the config.
+Read that book and learn more about the OS
+	threads and processes and shit
+---------
+Linux user space
+
+---------
+Cloud stuff ?
+
+---------
+Docker
+virtualisation
+
+---------
+compilation
+compilation in general 
+	how compilers work : how gcc works
+	how an assembler works
+	understand more about it
+cross compilation
+	how cross compilers work ?
+-------
+Cryptography
+ECC curve ?
+RSA/ECDSA signature etc
+What else to know about crypto ?
+Encrypting linux rootfs
+
+-----
+meta project
+how to get more ideas on project
+	look at /r/embedded
+	watch youtube channels like Mental outlaw
+	listen to podcasts like jack rysiders cybersec podcasts
+	Get an absract idea and just search deep into it.
+	watch defcon videos
+
+------
+see what's oscp fuss is all about
+and other certs
+------
+Lean about JTAG:
+jtag boundary scan to do everything : how ?
+-----
+Learn about debugging probes
+	SWD
+	can you make an open source probe
+		or use one probe for evrything
+--------
+Understand how a scheduler really works
+--------
+Do everything related to linux on yocto and at the same time, understand how yocto does it.
+	like looking at the python source code when doing something. Sometimes you don't find documentation anywhere and you just look and the source code
+
+I'm pretty sure you can contribute to yocto:
+		bitbake : add features to bitbake and correct stuff
+		meta poky / openembedded layers by porting tools and patching them and shit
+--------
+contributing to linux:
+	upstream stuff
+	create drivers for non supported stuff: example a hardware that only works on windows
+--------
+steps :
+	linux stm32mp1 stuff + kernel + all about linux
+	network stuff
+	android stuff
+	reverse engineering stuff
+	cve stuff
+--------
+all about web frameworks and shit
+
+--------
+iot devices
+bluetooth/ ble/ zigbee/ some proprietory comm protocol
+do some simple project on them to understand them, and exploit them
+--------
+embedded stuff in general:
+	look at defcon conferences for ideas.
+
+--------
+electronic hardware
+
+--------
+fpga
+
+--------
+how console prints work how to print from a terminal to another
+
+--------
+root oculus quest 2
+
+--------
+fpga:
+
+make hdmi 2.1 audio splitter
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------
+
+
+--------

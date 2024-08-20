@@ -1,0 +1,46 @@
+What I want to do as a freelancer
+
+
+What expertise do I want to sell :(by order)
+	Embedded linux
+		Kernel
+			Huge room of growth
+			drivers/Linux OS/Profiling;tracing.
+		Multi processor systems
+			Ex : Linux + Baremetal
+		Virtualisation
+			0 knowledge here for now
+		userspace utils
+			Lots of stuff to do
+			Not enough complexity
+		system wide stuff
+			Can be hardware specific
+		Uboot
+			Interesting but not enough room to grow
+		yocto
+			Boring
+		Board bring up
+			(To avoid : uncompatible with remote freelancing)
+			Very interesting technically
+
+
+
+---
+Bonus : What I want to do when I become a freelancer
+	Work :
+		Reach max of micro entreprise doing stuff in Grenoble
+		Infinite goals doing stuff remotly
+			Try to include brothers
+		*Depends on mental state:
+			Make money doing workshops/trainings
+			Hire people you already know
+			Hire random people
+
+	Outside work :
+		Keep getting better expertise on Linux
+			Everything linux, especially remote friendly stuff
+		Side project/hobby : cybersecurity
+		*Depends on mental state:
+			Participate in hackathons
+			Participate in Linux events
+			Participate in cybersec events

@@ -1,0 +1,5 @@
+Project : debug from sublime text 
+
+- Debug ccs stuff
+- Debug user space c app
+- Debug kernel using kgdb

@@ -1,0 +1,48 @@
+== Todos
+- Understand linux OS security blocks
+    LPE + RCE : see all bugs related to this and understand them
+- Deep Understanding of Android main blocks
+
+== Hard exploits
+A perfectly chained attack would be : RCE + LPE
+    Remote code execution (RCE) : zero click or one click
+        This is the entry point of the exploit, it's front end apps like : message apps, chrome, media readers
+    Local privilige escalation (LPE) : bypass of the system security : linux kernel, ASLR, CFI, Selinux, Trusty OS
+        Should be the hardest, as it's related to the OS
+
+== Android attack surface
+Media playing
+    vuln in video/audio/image/archive/pdf/etc readers
+Linux kernel
+    drivers
+    android specific stuff
+        hardware, firmware
+    dm-verity
+    GPU + opengl
+    OS stuff : MMU, pages, IPC what else ??
+    userspace stuff : cgroups, root, ??
+protocols
+    bluetooth, wifi, nfc, usb, etc..
+Selinux
+Opensource libraries
+    Focus on one specific to android
+Trusty OS
+Big android apps
+    Whatsapp (+ messaging apps in general)
+chrome
+    renderer rce ?
+        (sandbox escape ?)
+Android Runtime
+Framework ??
+
+---
+== Todos
+- Watch defcon, black hat
+- Deep Understanding of Android main blocks
+- Understand linux OS security blocks
+    LPE + RCE : see all bugs related to this and understand them
+- Focus on android system : like framework
+- Android used libraries
+- Android default apps
+- Google android apps
+- Important android apps : telegram, messenger, whatsapp, etc..

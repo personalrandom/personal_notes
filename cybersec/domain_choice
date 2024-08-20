@@ -1,0 +1,295 @@
+= Chosing a domain
+
+== First task : list all possible cybersec domains
+=== For each one :
+- Fun factor
+- How complex is this
+- can you make 12-50k/y consistently with this
+- What is the potential money here
+- What are the clients and do they pay
+- How big is the market
+
+= Domains I'm aware of
+== Web
+== Windows stuff
+== Smartphone stuff
+== Browsers
+== Cloud/servers/virtualization
+== Embedded
+== Hardware
+== Linux kernel ?
+== Consoles
+== Online video games
+
+= Domains on hackerone
+
+= Domains with bug bounty program
+
+= Things that interest me the most
+== Windows
+== Smartphones
+== Web
+== Online video games
+
+-------------------------------
+Opensource vs closed source ???
+-------------
+= Android
+Open source
+Lots of vectors of attack
+    app, linux, android, hardware specific stuff, wireless protocols..
+4.4M$/y pool
+List of reported CVEs
+    https://source.android.com/docs/security/overview/acknowledgements
+    https://source.android.com/docs/security/bulletin/2024-02-01
+Google in general :
+    Pays for vulns in nearly anything related 
+    Pays for patches
+= IOS
++ safari
+
+-------------
+= chrome/chromium
+Closed source ?
+4M$/y pool
+= firefox
+
+-------------
+= Linux kernel
+Is there a bug bounty ?
+
+-------------
+= Hardware specific
+Tesla
+
+
+-------------
+= Xbox
+
+-------------
+= Virtualization
+kvm, hyper-v
+vmware others
+-------------
+= Web
+It's fun to hack websites
+Seems like you can make looots of money
+The biggest
+Lot of potential
+
+-------------
+= Linux servers
+-------------
+= Video games
+Epic games
+===========================================================
+- Big bug bounty payers
+Google, Meta, Microsoft, Apple, Amazon
+
+
+
+Too small :
+    Netflix
+= Meta
+Web
+-------
+- Bug bounty sites
+bugcrowd.com
+
+
+
+===========================================================
+Zero-day researcher
+    High end
+https://zerodium.com/program.html
+
+
+
+
+
+
+====================================
+Ranked by order of interest for now
+Most important question is :
+    How much time to make 5k (atleast twice a year)
+====================================
+= Android
+== les + 
+Max fun
+Stuff learned transitions to :
+    ios, windows, embedded, console, tesla, hardware, etc
+Can help your career
+    Google opportunities
+    Linux freelancing
+OS is opensource
+Google pays well
+Highest potential for money
+    zerodium
+
+== les -
+Infinite complexity
+Needs hardware
+    pixel 6a : around 220euros
+        support until July 2025 : android version
+        support until July 2027 : cybersec updates
+
+== les ?
+What's the expected invesment before making 1k/month
+    should be less than 2 years
+
+--------------------------------------
+= Web
+== les + 
+Make money faster
+Fun to hack a website
+
+== les -
+No transition to other domains
+I have 0 technical knowledge
+Too much competition
+
+== les ?
+What's the expected invesment before making 5k/6months
+
+
+--------------------------------------
+= chrome
+== les + 
+bound environment and complexity
+Google pays well
+
+== les -
+No transition to other domains
+Not that fun maybe
+Pure application
+
+== les ?
+What's the expected invesment before making 5k/6months
+
+--------------------------------------
+= Windows
+== les + 
+Very fun
+Big framework/environment
+
+== les -
+Huge complexity
+0 knowledge
+windows is closed source
+    Can be ok later once you master an os like Linux
+
+== les ?
+What's the expected invesment before making 5k/6months
+
+--------------------------------------
+= IOT
++ : Has lots of bugs
+- : Need hardware
+    Simulation ?
+- : Might need C++
+? : maybe vendors don't want to pay
+
+---------------------------------------------
+= Notes
+non web bug bounty is called binary exploitation
+    cyber vulnerability researcher
+== nice ressources
+https://www.youtube.com/watch?v=-k0t_Qaro4Y
+https://dayzerosec.com/blog/2021/05/21/from-ctfs-to-real-vulnerabilities-part-2.html
+https://www.reddit.com/r/ExploitDev/
+https://www.reddit.com/r/LiveOverflow/
+linux exploits
+    https://github.com/xairy/linux-kernel-exploitation
+Book : This Is How They Tell Me The World Ends
+https://blog.securitybreached.org/2023/08/18/bug-bounty-blueprint-a-beginners-guide/?fbclid=IwAR1XNYIoJj2WTq3PFm_FV5I13aXCXmTnt5nYlFoSVF1h0QcmPuUnGo9iCAA
+Youtube : liveoverflow
+blogs
+    https://www.reddit.com/r/ExploitDev/comments/17oafwa/looking_for_exploit_dev_vulnerability_research/
+See :  
+    Blackhat defcon and other hacking confs
+        get inspired
+== approach
+open source first
+    close source : extra layer of reverse engineering
+    move to close source afterwards
+Understand all basic principals
+Read up and reproduce exploits
+Develop exploits for 1 days ?
+read exploit write ups
+
+
+
+
+
+
+============
+Continue here : https://blog.isosceles.com/what-is-a-good-linux-kernel-bug/
+    and here google search : linux kernel bug bounty
+
+Searches :
+    bug bounty experience
+    full time bug bounty
+    zero day hunting
+        vulnerability research
+    Make 1000/month bug bounty
+    why you shouldn't full time bug bounty
+    hard targets
+    site:https://news.ycombinator.com/
+    
+https://hackerone.com/opportunities/all/search?asset_types=HARDWARE&ordering=Newest+programs
+    hackerone programs that are not web
+    
+    hackerone reports
+    
+internet bug bounty on hackerone : opensource projects
+===============
+Let's do by elimination
+
+1- Web
+    can I eventually make 12k/y ?
+2- IOT + hardware
+    !!!! Do you really need the hardware ? !!!!
+    Emulation ?? Qemu, etc
+3- Android + linux in general
+4- Chrome, firefox, safari 
+    Hard target like android
+5 - Web3 (crypto and others)
+    they pay a lot !
+6 - virtualisation
+7- Google cloud, azure, aws
+Get inspired by blackhat/defcon
+    
+===================
+Choice : Android + Linux in general and averything related
+Problem : very hard target
+Solution : freelance 1.5 month/y atleast to survive + have fun
+
+Big question :
+    How to build my freelance + learn for cyber ?
+        freelance : Learn everything about Linux kernel + contribute + blog
+        cyber : Learning inner workings of linux kernel = good investment ?
+
+
+
+Potential next targets:
+    Move to closed source targets : IOS/MAC/Windows
+        + hardware specific : tesla; xbox
+    Play with web browsers
+    
+
+=======================
+Selling android/linux zero days
+1- Google program
+2- ZDI
+    + pwn2own
+3- Not selling but reporting
+4- Zerodium
+    (not until you have lots of vulns you're known for)
+        Just use broker then
+
+================
+It seems that most popular targets are :
+    Browsers
+    virtual machines
+    tesla
+    

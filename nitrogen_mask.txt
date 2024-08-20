@@ -1,0 +1,202 @@
+main ressource :https://sanctioned-suicide.net/
+email : iwillreachthemoon@proton.me
+email pass : Ao6fR%lz*t8tH2Bu
+
+username : moonseeker
+pass : q1mT!mGh4kKcEJl@
+
+
+Nitrogen mask : Dräger with a red button
+
+You need :
+nitrogen gas tank  
+	Used for making beer/systeme de climatisation
+	How much is enough ? 5L 200bar
+	purity should be (99.8%) or higher
+N2 to air adapter
+	I think that gas tanks are w24.32
+		(x1/14" DIN 477)
+	 DIN 477-1 No. 10 (W24.32) to DIN 477-1 No. 13 (G5/8")
+	 This is the one 200 bar nitrogen side,  300 bar air side: 
+	 https://www.tek-diver-shop.de/Gewindeadapter-300-bar-Druckluft-G-5-8-Innengewinde-Stickstoff-W2432-200bar-Innengewinde_1
+	 reason : https://sanctioned-suicide.net/threads/gasmonkey-setup-nitrogen-scba.115434/page-2
+
+scba regulator ?
+	the distance from the edges of the tightening wheel must be >= 37mm
+		Druckregler
+scba demand valve + hose
+scba mask
+
+
+----
+==N2 gas tank==
+N2 gas thank 2L 200 bar 99,99%: 
+	https://www.amazon.fr/Stickstoffflasche-2-kg-avec-flaschencage/dp/B004TOFP12/ref=mp_s_a_1_17?keywords=prix%20bouteille%20azote&qid=1691510275&sr=8-17
+
+N2 8L 150 bar 99,998% : 
+	https://www.amazon.fr/Bouteille-dazote-pleine-gaz-Vogelmann/dp/B09WVN8S5R/ref=pd_vtp_h_pd_vtp_h_sccl_5/262-9968571-4986666?pd_rd_w=E5A8y&content-id=amzn1.sym.f66a82f4-7276-4231-ba6b-c00184d21fe0&pf_rd_p=f66a82f4-7276-4231-ba6b-c00184d21fe0&pf_rd_r=SAF2HF7W6E5981GGBK3H&pd_rd_wg=qH4b6&pd_rd_r=92e1193f-8ac3-4c79-92e7-ae22b3eef790&pd_rd_i=B09WVN8S5R&psc=1
+
+
+TN-28 purity means 99,8 % purity à: OK
+https://www.ebay.fr/itm/124001293274?hash=item1cdf0d93da:g:kYQAAOSwmgNd6iAG&amdata=enc%3AAQAIAAAA4PkEkmazhhS97iWTSmqbZKDSTCL2mjGafzpoRVZoVcBX92eu8IWtZvEPfIKsLw8YzZDykYScUMOxbMT0FERFNqkf9ZE1Omjd94Ywkz48lKRjIVdFYs4gthDkXT15Y%2BLwYpt3au0s0mbkSBkYCi7e4oKAxIJ4tWKX9LuaR0rf%2Br5PZQnV%2BqB36c8813tRbaIuujyEFhMUG%2Bs07Bc7Q2rFklxfpE6d8DAbQpkrif1AN4PfEK2hCr8T53OXYz9RmoX2u%2FHXU%2BbK1iWDRi7jcQL9koZ0WDQefJtVpvfh1GAolsz6%7Ctkp%3ABk9SR5D99KrEYg
+
+https://www.amazon.fr/Stickstoff-Bouteille-gaz-pour-climatisation/dp/B08ZCR1RWJ
+
+https://www.ebay.fr/itm/163837045191?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20221115143056%26meid%3Dd3aa55bd7be445ddbf5b69fec3fc8cc4%26pid%3D101612%26rk%3D1%26rkt%3D1%26itm%3D163837045191%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DRecentlyViewedItemsV2&_trksid=p4375194.c101612.m4236&_trkparms=parentrq%3A22e0f00718a0ac6ebe77d40cffff9bf0%7Cpageci%3A8643ce5d-41c4-11ee-bb4f-56891466130e%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+
+https://www.ebay.fr/sch/i.html?_from=R40&_nkw=azote&_sacat=124820&rt=nc&LH_PrefLoc=3
+
+https://shop.gase-dopp.de/
+	but costs 300e
+== N2 to air adapter==
+
+https://www.tek-diver-shop.de/Gewindeadapter-300-bar-Druckluft-G-5-8-Innengewinde-Stickstoff-W2432-200bar-Innengewinde_1
+---
+I think you can use a combination of :
+
+https://www.tek-diver-shop.de/Thread-adapter-compressed-air-G5-8-internal-thread-nitrogen-W24-internal-thread
++
+https://www.tek-diver-shop.de/Adapter-normal-air-300-bar-intended-normal-air-200bar-extended
+
+
+==Demand valve + reg==
+ https://www.ebay.fr/itm/304944384621?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D253007%26meid%3D7b6c61792e634104b48f7e745b13dd84%26pid%3D101195%26rk%3D2%26rkt%3D12%26sd%3D305010915787%26itm%3D304944384621%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3DGcpAutoMLSimplAMLv11WebTrimmedV3MskuWithLambda85KnnRecallV1V2V4ItemNrtInQueryAndCassiniVisualRankerAndBertRecallWithVMEV3%26brand%3DInterspiro&_trksid=p2047675.c101195.m1851&amdata=cksum%3A3049443846217b6c61792e634104b48f7e745b13dd84%7Cenc%3AAQAIAAABYCGxrAS2c2tRIj5Vbv1QzbZgkUwQgGnAWoi75xFw0VIM0hbvhxO9NPzyUGVfqxFJVnCvosnPRvjN%252Bt3iyZe3i%252F5ZPQo04x%252BEma3EvkWs3cweBLXp0FxuqLt38B81Cr8nD841RrZlhZH9Mqev1vr%252F6LuggHLscaMG8IX8GS5VZBhzEJ6nQAIYulD%252FIKT2sVUGYxVW4UkyXsLz6O14DaHM0cM3oLve%252Fnfiv0Tu5akbjJr73NS%252Bvi2vz5Pm8X5AcR3b17GEXXhwgqL%252BjPhmGDIH%252F9kFTiogiy27U3SvV9vkBtby5AgkRzYECT1zV47XwPJP8Aey5ZmWgHfYdESU7ivhikqBaVz18MD1uP1zmq8fhCEaORYapIae%252BN1flMn0xZGHsfKqRjEivkYpKm9nf42JI7JCRUrndmQFeAFHzTMTwMIQAkKCMT1fYQWfsPjQthq2MnNfv%252F6Nd4UDs%252BG0sibIqx8%253D%7Campid%3APL_CLK%7Cclp%3A2047675
+ 
+Dräger PAS Lite
+
+pressure reducer
+	sometimes called regulator
+	
+MSA Auer ClassicLine
+	used with msa auer airgo
+MSA auer singleline
+	MSA AirGo
+==SCBA mask==
+Masque draeger in eBay
+Also search by brand name + masque
+drager fps 7000
+https://www.ebay.fr/itm/175462955191?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D20201210111314%26meid%3D892cce16e75f4ad5bb237759f87ff20b%26pid%3D101195%26rk%3D1%26rkt%3D12%26sd%3D385808126679%26itm%3D175462955191%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3DSimplAMLv11WebTrimmedV3MskuWithLambda85KnnRecallV1V2V4ItemNrtInQueryAndCassiniVisualRankerAndBertRecallWithVMEV3&_trksid=p2047675.c101195.m1851&amdata=cksum%3A175462955191892cce16e75f4ad5bb237759f87ff20b%7Cenc%3AAQAIAAABYPqB0EgCndAssfMWNy0AT0GytGzF9%252By0G%252BlcW69DgBK3Qlz4BjwJQqPkN4K8I7qz9GoVciN1QNWqyS8EeqYS8rZRsDvyvw34m3N%252FyJKokwCTIIc3RNym2SNW8ARudP72DyiwgIY0dfUnIr5%252BMZDTaovyUSY38%252FXDjXPjJkhJm1esqGGyUbgWFWci%252F3Jht5autHZJYN6Vwa9BgiJOc%252FCFW17w9mqzPUAs8%252BEiGgVBLoKL6Z1aNExg2BsZWIvvZbwssP8aZyNfiIGCWJOqypR%252Bt5EjVZoiNQaQS3MrbIwc3WnJNth2Xyw18LLwjtmdu4S%252FoVLLYNqpE%252F5B7DrJCTauS52r8RrXRJPgAU%252BMe4k3XIG45Tb9bZrf7WjpT1niNKcv2jvkiPu18iBQYbE8YJ54m%252B7N8QsABfBkMB%252F4Rud2l%252FJhW40DtG%252FudC7QXInTLGqew2ADQxK3vSsEu%252BOO9O10WYc%253D%7Campid%3APL_CLK%7Cclp%3A2047675
+
+---
+==good threads=
+https://sanctioned-suicide.net/threads/exit-bag-and-inert-gas-megathread.8393/page-76
+
+gas monkey setup : 
+	https://sanctioned-suicide.net/threads/gasmonkey-setup-nitrogen-scba.115434/page-3
+	
+==NOtes from forum==
+Avoid PSS90
+	Dräger Panorama® Nova ?
+someone ordered the used scba from india
+some alarm or something
+	Anyway you can silence the whistle if you want by covering the hole with something (not blocking it, just covering so the gas can exit but without producing a sound) like a piece of soft plastic.​
+test gas purity
+
+==Questions==
+Is 150 bar ok for 200bar N2 adapter
+you said to avoid pss90 but is pa90 ok ?
+
+==I think that==
+Dräger Panorama® Nova is tghe old modele to avoid with red demand valve
+Dräger FPS® 7000 looks like gas monkey mask
+
+---
+▪ Pack with regulator (with embedded LDV) + mask: 945 € (from Spain)
+	this is the one maybe ? https://www.prolaboral.com/es/9648-set-pas-litefps-7000-espaldera-mascara-3727948.html
+		only delivers to portugal/spain ?
+▪ Air-to-nitrogen adapter: 57 € (from Germany)
+▪ Nitrogen 4.0 cylinder: 153 € (from Poland)
+------------------------------------------------------------------------------
+▪ Total: 1155 €
+
+----
+in case  you dont find anything :
+	pas lite kit 1500e shipped from france : https://www.safetygas.com/appareil-respiratoire-isolant-ari-complet-kit-rpas
+	
+pas lite but with old mask  1110e : 
+	https://www.protextyl.com/drager/3498-kit-arico-r-pas-complet-drager.html
+
+for drager Panorama Nova
+	https://sanctioned-suicide.net/threads/exit-bag-and-inert-gas-megathread.8393/page-77#post-1816521
+---
+go to ebay.de
+
+---
+I think that pss 3000 is goo too
+
+TN 2
+
+----
+=== Process of CTB ===
+
+The process would be:
+1. Put the mask on.
+2. Open the cylinder's valve.
+3. Sit and strap body.
+4. Put pulse oximeter on the finger.
+5. Take a deep breath of air and hold your breath.
+6. Insert the demand valve into the mask.
+7. Pre-fill mask (pressing the front button for 1.5~2 seconds).
+8. Insert wrists into the straps.
+9. Exhale fully.
+10. Take a deep breath of Nitrogen.
+11. Avoid the reincarnation trap.
+
+
+
+----
+Will buy :
+	https://www.ebay.de/itm/145112847266?hash=item21c96653a2:g:Ov0AAOSwiWNkd0f4&amdata=enc%3AAQAIAAAAwKpAwrPfRyRLyuaa421WpeRk9uoL%2BlC0cxNzs%2Fx82gJl%2FOOh%2Bj6EVlL%2FcNaYGXjEIQqE9CTUgtr23hVyh0os%2BuX9nynG7yF30vlE%2FXmVYZsc2F9m0BzA6SgLaMrosLgfooVMmIFhgFliEKTbkJLo1y2x0qhtv2ECzFJLC1NgjosU%2FY58jc2QoKcJpPGp8g5%2BMS0Fp6fQeZ6ex%2BxRBE6pkXVYU1T8kxL6RyCgiMlCRzKQF51WXwkMpky8o%2BoIDCmaxg%3D%3D%7Ctkp%3ABk9SR5K6wrDEYg#shpCntId
+	
+---
+what about MSA AUER
+	MSA AUER bd 96
+		watchout for the alarm
+	MSA Auer AirGo
+		https://www.ebay.fr/itm/394019444260?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D20201210111314%26meid%3D7b38c68dc76e49768dbcc2ae891f3f7a%26pid%3D101195%26rk%3D9%26rkt%3D12%26sd%3D203726736054%26itm%3D394019444260%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3DSimplAMLv11WebTrimmedV3MskuWithLambda85KnnRecallV1V2V4ItemNrtInQueryAndCassiniVisualRankerAndBertRecallWithVMEV3&_trksid=p2047675.c101195.m1851&amdata=cksum%3A3940194442607b38c68dc76e49768dbcc2ae891f3f7a%7Cenc%3AAQAIAAABUPqB0EgCndAssfMWNy0AT0GytGzF9%252By0G%252BlcW69DgBK3Qlz4BjwJQqPkN4K8I7qz9GoVciN1QNWqyS8EeqYS8rZRsDvyvw34m3N%252FyJKokwCTIIc3RNym2SNW8ARudP72DyiwgIY0dfUnIr5%252BMZDTaovD7IxF2ePT8vtH0LqnKLRWKvJaNtWs44Zs1k%252F9J3n85r3iEiWOuoYUly7wJ%252Fmc3%252BKyXK5SP78lFJM3sH76JCCweW0n7%252BrCxUTfj7OnZqv%252B3whwGVY7nK1hwWn2dGLaqzInK9GfV0j0vUdctlE9KNMq4byWAjlErkbgGrNlMt9YKNkeUav%252BgAhtycoB3OIyFn3SzUjJHufCjWnFDQ1BzQgQq0M02hJVdf4QH1u3u2UEceimjII%252FahxjShSfeZAczIjbAAQI9nZCD%252BuHDOexDK9lJQfgEJi3M17IxI5vhcc3gA%253D%253D%7Campid%3APL_CLK%7Cclp%3A2047675#readMoreDesc
+	
+thw
+
+---
+Mask connections :
+ M45x3 seems to be the starndard mask connection
+ 
+ 
+----
+===Nice keywords===
+
+for ebay.de :
+Pressluftatmer
+	means Compressed air respirator
+Feuerwehr
+	fire departmenet
+THW
+	some other fire department
+	
+---
+oxygen detector might be neded : https://www.amazon.fr/d%C3%A9tecteur-concentration-doxyg%C3%A8ne-D%C3%A9tecteur-compteur/dp/B017SLO57M/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PZE0P3Y1CDMA&keywords=detector+cy-12C+oxygen+analyzer&qid=1692843076&sprefix=detector+cy-12c+oxygen+analyzer%2Caps%2C77&sr=8-1#customerReviews
+	you need  flow restrictor  with this
+	
+You might need O ring
+	joint torique 11.5x2.5mm
+	drager pss 3000 o ring is 11x2.5mm
+	msa o-ring : 9.52 x 1.78
+	
+---
+boutille francaise : 
+	TYPE C : IS 21,7x1,814 RH femelle (bouteille side)
+		https://fr.airliquide.com/statics/2021-10/catalogue_gaz_speciaux_2017.pdf
+		also called W21.7x1/14'
+		
+---
+netherlands :
+RU-3 to RI-2
+
+----
+You need to connect to the pressure port and not the flow port.
+
+someone ctbed on argon : https://sanctioned-suicide.net/threads/failed-argon-iga.108030/post-1927194
+
+---
+
+checking pss 3000 https://www.youtube.com/watch?v=nTZ_4nwejlw&ab_channel=USADraeger

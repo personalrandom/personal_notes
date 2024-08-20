@@ -1,0 +1,10 @@
+useful tools
+IDA : deassembler
+binwalk : tool for searching binary images for embedded files and executable code
+qemu : tool for simulating machines
+
+shodan : search engine for internet connected devices
+
+useful resources:
+defcon conferences 
+black hat conferences

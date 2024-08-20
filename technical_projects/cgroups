@@ -1,0 +1,6 @@
+cgroups
+
+Useful for giving priority in cpu; iO usage to prcesses
+
+Maybe it's only in the context of virtualisation
+

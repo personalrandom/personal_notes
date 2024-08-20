@@ -1,0 +1,64 @@
+= 1- EOC team
+
+Ti stuff
+	validate TI delivery for hsr
+		hw offload
+p3+ : rt
+	benchmarking + tracing + scripts
+
+RT linux
+	Benchmarking, best practices
+Linux
+	Tracing/ kprobes
+RT networking
+PCIE : RT networking + custom filters + IO
+RT IPC
+	Baremetal and rt linux
+	RPMSG is bad
+	zero copy IPC (DMA + IRQ)
+	Next :
+		GIC on linux
+		
+Virtualization (New)
+	SR/IOV on DPDK
+	KVM
+	redhat
+	x86
+Next : TI driver cpsw 
+	Add support for multi queue
+
+= 2- Evlink
+
+
+
+= 3- Others
+
+= 4- Prepare technically all these topics you did before
+-------------------------------------------------------
+
+Why I want to change :
+	Big company bullshit
+	Afraid of not working anymore on technical challenges
+	Not allowed to do opensource contribution
+	0 experts autour de moi
+
+Why remote :
+	I applied for citizenship, can't change city
+		won't waste 1.5 x 2 a day on this
+
+What I can bring :
+    Know people inside schneider
+        I was in transversal team
+    All technical challenges I take I suceed in.
+    Fully autonoumous
+        I do research or au pire read kernel source code
+            (to understand unknown stuff)
+            => Proof : read Intel pcie, ti pcie rc.. to design pcie network.
+
+When presenting myself :
+    Powerpoint with achievements
+
+Salary :
+	Ask 60k
+	Hope for 55k
+	Atleast : 50k

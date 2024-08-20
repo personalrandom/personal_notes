@@ -1,0 +1,213 @@
+= Approach
+
+Big question :
+    How to build my freelance + learn for cyber ?
+        freelance : Learn everything about Linux kernel + contribute + blog
+            Max achievement : become maintainer of something in linux kernel
+        cyber : Learning inner workings of linux kernel = good investment ?
+
+Define scope of research
+    what is this fuzzing ?
+Bounty programs
+    Internet Bug Bounty
+    Google bounty program
+        https://bughunters.google.com/about/rules/6171833274204160/android-and-google-devices-security-reward-program-rules
+        https://bughunters.google.com/open-source-security/patch-rewards
+            patch opensource projects = reward
+    zdi
+automation tools
+    fuzzers ?
+--------------
+Linux LTS 
+    Covers security updates ?
+========================================
+= Sources 
+https://www.synacktiv.com/
+    david et thomas won pwn2own tesla
+    contains a lot of stuff about reverse engineering + linux pentesting
+        they have formation + overview of content 
+            => Use this as a starting point
+    https://www.synacktiv.com/recherche-et-exploitation-de-vulnerabilite
+    
+https://www.reddit.com/r/bugbounty/comments/18r1rep/can_binary_exploitation_and_other_lowlevel_areas/
+
+== Books
+https://hackerzambie.files.wordpress.com/2020/02/gray-hat-hacking-the-ethical-hackere28099s-handbook-.pdf
+======================================
+Reverse engineering
+    driver Firmware binaries
+    Parts of some source code
+        Parts of OS ?
+    android apps
+    
+===========================================================================================================
+===========================================================================================================
+= Let's see android components
+Media playing
+    vuln in video/audio/image/archive/pdf/etc readers
+Linux kernel
+    drivers
+    android specific stuff
+        hardware, firmware
+    dm-verity
+    GPU + opengl
+    OS stuff : MMU, pages, IPC what else ??
+    userspace stuff : cgroups, root, ??
+protocols
+    bluetooth, wifi, nfc, usb, etc..
+Selinux
+Opensource libraries
+    Focus on one specific to android
+Trusty OS
+Big android apps
+    Whatsapp (+ messaging apps in general)
+chrome
+    renderer rce ?
+        (sandbox escape ?)
+Android Runtime
+Framework ??
+== Surfaces of attack
+Malware app
+    + privilege elevation
+    + rootkit persistance
+See previous pwn2own targets
+    https://www.zerodayinitiative.com/Pwn2OwnVancouver2024Rules.html
+== Previous vulnerabilities
+https://www.zerodayinitiative.com/advisories/published/2023/
+
+========================================================================================================
+========================================================================================================
+=Technologies
+fuzzing
+    is it unit tests ?
+    Seems to be applicable to all
+
+======================================
+======================================
+= Things to learn that will help
+== Big step 1
+Linux kernel understanding on arm
+arm cpu architecture 
+    assembly
+    trust zone
+Linux kernel cybersecurity
+    mitigations like ASLR
+Linux kernel hacking
+    understand all previous interesting vulns
+        + make pocs
+Linux kernel others
+    Linux booting, elf files, how libraries are used, etc..
+=== Outcome
+Document your understandings : blog + contribution to doc
+Contribute to linux kernel
+
+== Step 2: in no order for now
+Languages : C++, java
+    java for apps
+    C++ for runtime and libraries
+Linux/android : wireless stack (bluetooth, nfc, wifi, 4g, others?)
+
+Linux/Android graphics stack
+    Needs hardware ?
+arm gpu architecture
+    (Needs hardware)
+Trusty OS
+Pixel phone specific hardware and its drivers/stack
+    (Android in general)
+    (Needs hardware)
+Android architecture  
+    https://developer.android.com/guide/platform
+Android libraries : c libraries + others
+Android runtime
+    (+java language)
+System apps : camera, microphone, sms, email app, media files, documents
+High profile apps : whatsapp, signal, telegram, messenger
+    Special : Google chrome
+Others : 
+    openssl, open source libraries used in linux servers
+    open source libraries used in android
+    
+======================================
+======================================
+= How to make medium money (24k/y)
+Android/Linux always has new features (+ new hardware) introduced
+    => Master the architecture and stay up to date
+Contribute to maintaining Linux Kernel + Android stuff
+    => Exposure for your freelance
+Android/Linux complexity is huge
+    => There must be some bugs
+======================================
+= Todos to decide Linux/Android or not
+== Prove that you can find small bugs on Linux/Android
+    First understanding of android arch
+        Identify attack surfaces
+            User downloads a malware : sandbox escape + pve + persistance
+            zero click : wireless protocol, sms, call, messaging app, mail, mitm(network packets, others)
+            one click : visit webpage, open a media, read sms, etc
+        https://medium.com/@ayyappansubramanian77/exploring-the-layers-a-deep-dive-into-android-os-architecture-31a2cd7a4036
+        https://www.linkedin.com/pulse/exploring-layers-android-architecture-effective-mobile-application/
+        https://www.interviewbit.com/blog/android-architecture/
+            all these sources are shit
+        
+    Look at history of found bugs
+== See what google bug bounty + others cover that is related to Linux/Android
+
+== Android first understanding of arch
+    Linux kernel
+        + Selinux
+    Android runtime
+    libraries : ssl, opengl, sqlite, etc
+    application framework
+    system applications : message, mail, camera, etc
+=== Questions
+How sandboxing works ?
+
+----------------------------------------------------    
+= Todos if Linux/Android
+1- Understand Architecture as much as possible
+2- Define attack plan
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Reasons for android :
+- All this knowledge can be useful also for consulting
+    Contribute to android projects + get known + do gigs for companies who need this
+        smartphones/notebooks
+        automotive 
+        meta : VR
+        android tv
+        home automation systems : camera/etc
+        + all domains related to linux kernel 
+            Tesla car
+            servers
+        + all domains related to computer knowledge
+- Max difficulty
+- I have good background in embedded linux
+- Very interesting technically
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Two questions need to be answered :
+
+1- Is android cybersec enough to make 24k/y in 2 years
+    This can help confirm your choice of android + motivating
+    If really sure of this, then focus on this only
+        even if focusing on this only, maybe you need to master linux kernel first => Perfect
+2- How useful is linux kernel mastering for Android cybersecurity
+    If 100% : Good, we'll master linux kernel first 
+        + technical articles + doc + contribution (bug fixes, improvments, new functionalities, mainlining stuff)
+        + Conferences
+            All of this for freelance exposure
+
+Approach to answer these questions :
+1- 
+    Understand android architecture
+    Then look at what vulns there was in each layer
+    Read blogs about people who hack android
+2- 
+    Understand % of linux kernel in system complexity
+        + in where vulns are found
+
+3- How likely to find vulns in android
+-----------
+Understanding Android architecture : See android_architecture txt file

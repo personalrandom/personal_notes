@@ -1,0 +1,17 @@
+==keto sides : uncooked==
+--cheeses--
+	saint marcelin
+	saint nectaire
+	bleu ?
+	comté
+	emmental
+	cantal
+-----------------
+--yaourts--
+fromage blanc
+yaourt
+
+-----------------
+--charcuteries--
+mini saucissons
+saumon fumé

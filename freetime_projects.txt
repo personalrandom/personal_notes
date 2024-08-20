@@ -1,0 +1,89 @@
+Freetime projects
+
+===Analyse malware on windows or on android.===
+Need to understand the OS from a userspace application point of view.
+	OS API
+Need to understand common languages used to code programs/apps
+	Java in android
+Dissassemble programs and understand what they do.
+	Dissassemble Java
+	Dissassemble native binaries
+Know how OS APIs look in assembly
+Start by already understood malware
+	What website provide info on that ?
+		Analysis
+		the virus itself
+		Some tools to analyse it
+
+-Android-
++Most interresting one 
+	Google
+	Android kernel = Linux kernel + some custom patches.
+Understand android system
+	Linux kernel + patches
+	User space : Android stuff ?
+Need to understand how apk apps work.
+Need tools to simulate an android device.
+Understand android API for apps
+
+Find already known malware
+	understand what it does
+	dissassemble it and reunderstand it
+		get the actual malware binary
+		See how it behaves in real life : (before it's patched)
+		optimize this process and understand the common tools used for malware analysis
+
+Malware runtime analysis
+	The malware is running and you need to understand what it's doing
+	See what ressources it uses what it modifies
+	What tools can I use for this?
+
+Make your own malwares using a patched exploit
+	run it on pre patch system
+
+Understand what malwares do :
+	Via analysing lots of them.
+
+Find a non patched malware
+	Analyse it and understand it
+
+-Tools 
+Dissassembly
+Automating the dissassembly and detection of common pieces in malware
+
+
+- Long term goals
+Successfully analyse a non patched malware
+	Publish this finding somehow : this is your CV
+	This is a zero day
+	Submit an android patch
+		ok if no patch
+Find a zero day (one not already used inside a malware)
+	Once you get deeper understanding of android you might be able to do this
+	Sell it ? Publish it ?
+Automation tool for malware dissasembly
+	database of analysed malware
+	automate common parts
+Antimalware for android
+Antimalware + uses AI for android
+	like sentinelone
+Join google
+Transition to IOS
+
+
+=== Hack an online video game ===
+-Android
+Find some game that needs online servers and hack it
+	reverse engineer communication protocol with server
+	Find some exploit in it
+Games are less complex on android
+
+Start by offline low complexity games
+	modify them to change something in game : trainer and cheats
+
+-Long term goals
+Successfully hack an android online game
+Make money out of it
+	Sell exploit as bot or cheat(closed source thing)
+	Sell exploited ressources of game
+	Might go to prison because of this.

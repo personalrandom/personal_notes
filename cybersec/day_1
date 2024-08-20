@@ -1,0 +1,75 @@
+First task cybersecurity :
+
+What are all the possible domains
+    potential money for each
+    complexity of each
+    fun factor of each
+    Estimated time to learn it
+        and get a vulnerability at it
+
+I need some positivity
+    Find people who do this as living
+
+==========
+= Goals
+- make 1k/month
+- sell a vuln for more than 10k
+- sell a vuln for more than 100k
+- sell a vuln for 0.5-1 milion
+- Participate in defcon (presenter)
+- Publish cybersec research paper
+= Possible independant cybersec jobs
+== White Hat
+Bug bounty hunter
+    same as cybersecurity researcher ?
+Make a cybersec product ?
+Maybe in futur :
+    do cybersec consulting for firms or smt :audit; cybersec threat assesment; incident response; etc
+== Side stuff
+Youtube channel about this
+    might make some ad revenue if interesting content
+Blogs
+    Good publicity if ever needed
+== Grey hat
+Bug bounty hunter + sell to state actors ?
+== Black hat
+Attack companies : ransomware/data leak
+    sell data
+Hack online videogames
+Hack people and steal their money
+    interesting : crypto
+=========
+= Inspirations
+Darknet Diaries Podcast
+    bug bounty hunter that made milion/y
+    Episode 60
+= Sources
+ycombinator (hacker news)
+=========
+= Possible domains
+== Web
+== Windows stuff
+== Smartphone stuff
+== Browsers
+== Cloud/servers/virtualization
+== Embedded
+== Hardware
+== Linux kernel ?
+== Consoles
+== Online video games
+
+=How to choose :
+- Fun factor
+- can you make 12-50k/y consistently with this
+- What is the potential money here
+- How complex is this
+- What are the clients and do they pay
+- How big is the market
+=========
+= How to get into this technically
+== Reverse engineering
+Malware reverse engineering
+    Ghidra is a tool for example
+x86 architecture
+    assembly, debuggers
+

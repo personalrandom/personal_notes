@@ -1,0 +1,180 @@
+Compilation yocto :
+	tache en background
+	
+Reprendre l'existant :
+	
+Bilan taches :
+
+-----------
+
+EOSC_1: As Goose perf tester I need a way to send/receive Goose frame(s)
+	hw req: none, can be done on a PC
+	sw req: Linux
+	DoD: Linux i686 application & source code
+	Desc:
+
+	EtherType = 0x8B88
+	implement application sending Goose frames (round-trip)
+	application must measure round-trip time
+	Language: C
+
+
+
+---------
+
+benoit :
+	carte TI
+		Port ethernet 0 et 1 (comm entre 0 et 1)
+		Port ethernet 0 et 1 + switch + pc linux
+			0 - switch - 1
+				   |- pc linux
+		
+		resultat excel :
+			+++ Il faut recuperer les resultat excel. +++
+			
+		test setup :
+			serveur iperf3 carte : iperf3 -s server 
+			ping pong server goose : pingpong -s -i ethx(interface reception)
+			ping pong server non goose:	pingpong -s -e 0x88B7 (option pour 
+			client iperf3 linux: iperf3 -b 5G -c 192.0.x.carte
+			client ping pong goose carte : ./bin/ping_pong -c -n -1 -d 1 -i eth1(interface pour envoi) -m 70:FF:76:1D:F1:4D(mac serveur) -l test_n-1_d1_p1000_iperf_no_option.csv -p 1000 
+			client ping pong non goose pc: ./bin/ping_pong -c -n -1 -d 1 -i eth(ordi) -m 70:FF:76:1D:F1:4D -l test_n-1_d1_p1000_iperf_no_option.csv -p 1000 
+			
+
+EOSC_2: As Goose perf tester I need a way to test Goose & x-104 frames transmission performances over network
+	hw req: none, can be done on a PC
+	sw req: linux
+	DoD: shell(?) scripts loading network
+	Desc:
+
+	test with heavy IP traffic (using iperf?)
+		iperf3
+	test with heavy Ethernet traffic (https://github.com/hundeboll/rawsend?)
+		with ping pong non goose
+
+
+What was used : 
+	iperf how is the setup ?
+		iperf3
+			-b5G
+			server, client
+				cas test : 
+					client : 
+					server utilisé : simule cas ou il ya une appli qui tourne en meme temps.
+					server non utilisé :  reseau pollué 
+		where are the scripts etc.
+
+
+
+	heavy Ethernet traffic
+		what is used ?
+
+
+--------
+
+EOSC_3: As X, I want to filter Ethernet traffic to make Goose frames priority higher than rest of network traffic
+	hw req: none, can be done on a PC
+	sw req: linux
+	DoD: script + explanation on tc required settings (only what's required for this US)
+	Desc:
+
+	use tc command to setup EtherType filter
+
+tc benoit avancement:
+	Docs https://tldp.org/HOWTO/Adv-Routing-HOWTO/index.html
+	sur que tc c'est ce qu'on veut ?
+	ingress entrant mais tc est fait pour le trafic sortant
+	tc qdisc add dev eth0 handle ffff: ingress
+	tc filter add dev eth0 parent ffff: protocol 0x88B8 u32 match u32 0 0 action drop
+	u32 : https://tldp.org/HOWTO/Adv-Routing-HOWTO/lartc.adv-filter.u32.html#AEN1080
+	queuing disciplines
+		9. Queueing Disciplines for Bandwidth Management
+	explained : 
+	tc code source	( interface to kernel space)
+		iproute2
+		https://github.com/shemminger/iproute2/blob/main/tc/m_simple.c
+			icmp print on each incoming icmp packetz
+	kernel space :
+	
+other documents for traffic control :
+	https://lartc.org/howto/
+
+kernel space:
+	https://en.wikipedia.org/wiki/Network_scheduler#Linux_kernel
+		the packet scheduler uses a FIFO implementation called pfifo_fast,[18] although systemd since its version 217 changes the default queuing discipline to fq_codel.
+
+the trick is to prioritize the traffic without limiting it :
+	https://superuser.com/questions/550622/linux-network-traffic-priority-by-ip
+
+--------
+
+questions:
+ is linux vm ok ?
+	problem windows ? use loopback
+
+ostinato :
+	role ?
+		to use or not ?
+		excel : ostinato
+		configuré comment :
+			eth 1000 frames/sec
+				0x88B7
+
+code ping pong :
+	promescuous : ?
+		what/ do we need it  ?
+
+----------
+filter all icmp entrant.
+	tcpdump look 
+----------
+virtual interfaces
+	bridge + 2 virtual ethernet interfaces.
+
+----------
+
+delays :
+
+With switch it adds 200us
+
+packets of 100 vs packets of 1000
+
+----------
+bugs bizarres
+	20us mean ?
+		also on evlink
+		lance deux client, c'est la desynchronisation.
+
+client
+	iperf3 -c 192.168.0.103 -b 150M -t 1000
+	 sudo ./bin/ping_pong -c -n -1 -d 1 -i enp0s8 -m a6:b0:34:5b:a2:08 -l test_n-1_d1_p1000_iperf_no_option.csv -p 1000
+	 /tmp/ping_pong -c -n -1 -d 1 -i eth0 -m A6:B0:34:5B:A2:08 -l /tmp/goose.txt -p 1000
+	 
+serveur
+	iperf3 -s
+
+tc -V
+5.10
+
+-------
+
+drop all iperf 
+	Without understanding tc at first
+
+priorités
+
+definir
+	charge processeur
+	coeur juste pour ping pong l'autre juste
+
+max
+
+---
+XDP :
+	https://en.wikipedia.org/wiki/Express_Data_Path
+
+linux kernel flow :
+	https://wiki.linuxfoundation.org/networking/kernel_flow
+
+linux kernel network start here :
+	https://wiki.linuxfoundation.org/networking/start

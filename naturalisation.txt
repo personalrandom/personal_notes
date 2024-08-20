@@ -1,0 +1,82 @@
+Dossier naturalisation :
+
+Copie integrale de l'acte de naissance avec filiation
+	Document pas en francais 
+		Traduction agrée : 60euros atleast
+		Demande au consulat de le traduire ?
+			they cant
+		Demande au consulat ce document en francais.
+			they cant
+	Envoyer que extrait acte naissance ?
+		lets try this
+
+Copie acte mariage 
+	Original arabe scané : OK
+	Traduction agrégée (faite au maroc en 2021) : OK ?
+		lets try this
+
+copie acte naissance ou tout document mentionnant leurs dates lieux naissance
+	Acte naissance for both : OK
+		2021
+
+Casier judiciaire :
+	Francais 2021
+		should be we try it ?
+	Arabe 2023
+		traduire 
+	consulat
+		they give for free.
+
+Bordereau de situation fiscale
+	Faire demande. 
+		OK en principe
+
+
+----
+All documents 
+
+-Etat civil 
+nationalité  
+	passeport scané : ok
+Copie intégrale de l'acte de naissance
+	extrait acte naissance : will see if ok
+Titre de séjour
+	scané : ok
+Diplome 
+	NOT OK :
+		Sign and rescan
+
+- Parents et fratrie
+Copie de l'acte de mariage 
+	original + traduit au maroc
+Copie de l'acte de naissance des parents
+	extrait de 2021 scanné x2
+
+-Domicile
+Contrat de location
+	Scané : OK
+	original : OK
+Trois dernières quittances de loyer
+	TODO
+Justificatif de domicile datant de moins de 6 mois :
+	(facture d'électricité, de téléphonie, d'accès internet )
+	TODO
+Casier judiciaire étranger
+	Scané : 2021 
+	2023 but in arabic
+
+-Ressources
+Avis d’imposition des 3 dernières années 
+	TODO 2023
+Bordereau de situation fiscale
+	TODO
+relevé carriere
+	TODO (Assurance retraite)
+Contrat de travail en cours
+	TODO : combine both pdfs
+Les 3 derniers bulletins de salaire
+	TODO
+Bulletins de salaire de novembre et décembre des 3 dernières années 
+	OK
+----
+TODO : Get original of each document they asked.

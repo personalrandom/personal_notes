@@ -1,0 +1,56 @@
+Dernier rendez-vous : 12/07 à 09H
+
+let's try every friday @ 09H
+    + everyday @ 09H
+
+05/09 est interdit pour le rdv
+
+---
+Script ?
+
+https://www.rdv-prefecture.interieur.gouv.fr/rdvpref/reservation/demarche/4502/creneau/
+    how it looks like when you can reserve
+
+Some starting point for script : https://www.youtube.com/watch?v=CjIFoNoDhz0
+
+Strategy :
+    try hacking captcha : https://book.hacktricks.xyz/pentesting-web/captcha-bypass
+    Captcha solver
+    Refresh every 1 minute
+        Send email if new creneau
+    Session is alive for : 30 minutes
+        I can be solver of captcha
+            Script email me captcha and I send response.
+    Script works from 9h to 00h
+        if captcha response not received, that 30 minute range is skipped.
+
+--------------
+= Try hacking captcha
+
+Server generates a unique ID then gives image
+Client sends response of the image then request to go to next step
+    Server can refuse or accept based on session ID
+
+
+== Pre solving captchas
+Strategy = solve 30 captchas per day the same time
+
+
+1 presolve
+    ok
+Presolve multiple captchas then use them
+    ok
+
+Using on different session
+    ok
+
+Using them later + 30 minutes 
+    nope doesn't work
+
+--
+What if I put bad captcha everytime so my session stays valid
+    doesn't work
+    
+----
+Vertex AI / chirp speech-to-text destroys audio captcha
+    https://console.cloud.google.com/vertex-ai/generative/speech/text-to-speech?hl=en&project=central-beach-431221-s1

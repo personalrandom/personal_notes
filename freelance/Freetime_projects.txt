@@ -1,0 +1,23 @@
+Freetime projects to do (to help with reaching freelancing)
+
+
+Kernel technical projects
+	Goals :
+		More kernel expertise
+		Contributing to Kernel : Exposure
+	Req :
+		Need to find a way to comeup with technical topics
+			You can always work on eoc needs
+				future or current or identified for other clients
+
+Linux related opensource projects
+	More Linux knowledge
+	Exposure (but not as much potential as kernel)
+
+Linux kernel knowledge :
+	Make articles/deep dives on subjects you covered
+	Linux kernel documentation contribution
+
+--
+Some other ideas :
+Virtualisation

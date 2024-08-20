@@ -1,0 +1,79 @@
+metabolism of estrogens
+
+on of major routes is Hydroxylation of estradiol
+https://en.wikipedia.org/wiki/Hydroxylation_of_estradiol
+
+DIM seems to lower estradiol but upper estrone ?
+    https://www.youtube.com/watch?v=LXPXp4HQUl8&ab_channel=VigorousSteve
+    
+estrone is the major estrogen found in women in post menopause
+
+some simplified metabolism pdf https://www.va.gov/WHOLEHEALTHLIBRARY/docs/Estrogen-Dominance-508.pdf
+-------------
+https://www.pharmgkb.org/pathway/PA145011118
+    Phase 1 : CYP1A1 and others
+        I have good CYP1A1 genes => 2-0HE1
+    Phase 2 : Methylation
+        2-OHE1 : major cachetol
+    Phase 3 : glucuronidation (UGT) and sulfation (SULT)
+
+See estrogen_metabolism.png
+-----------
+We need :
+e2,e1,e3 test
+-------
+what's 3,4-Quinones ? 
+    aka estrogen quinones
+    it seems that mainly glutathione (GST) detoxifies this
+        How to max out glutathione ?
+    some schemas show that it's reversible to 2-OHE1, 4-OHE1
+        with quinone reductase  
+            source :https://www.researchgate.net/figure/Metabolism-of-Estrogens_fig2_7964502
+            source : https://www.researchgate.net/figure/Biosynthesis-and-metabolic-activation-of-the-estrogens-E1-and-E2-One-of-the-major_fig1_51111401
+    NQO1 transforms them into hydro quinones
+        https://www.geneticlifehacks.com/detox-genes-nqo1/
+        Quercetin, Resveratrol upregulates this gene expression
+        I have medium activity of this gene
+    Both GST and NQO1  detox quinones
+        https://www.geneticlifehacks.com/estrogen-how-it-is-made-and-how-we-get-rid-of-it/
+    Can we test for this ?
+    Is this reversible to 2-OHE1, 4-OHE1 ?
+
+Reducing sensitivity of estrogen receptor ?
+    Resveratrol, xanthohumol ?
+    
+Relative binding affinity of estrogen metabolites : ER, SHBG
+    https://en.wikipedia.org/wiki/2-Hydroxyestrone
+
+How to deal with Estrogen stores
+    Lipoidal estradiol
+        Can you test for this in your fat ?
+    estrogen sulfate?
+    
+Is my phase 3 optimized ?
+    SULT and UGT
+--------------------------
+== Quinones metabolism
+=== 1- to hydroquinones : NOQ1
+==== Sources
+https://www.geneticlifehacks.com/detox-genes-nqo1/
+https://www.geneticlifehacks.com/nrf2-pathway/
+==== Genes   
+rs1800566 : Intermediate enzyme function
+rs1131341 : Unknown enzyme activity (TODO)
+==== Upregulation
+- Nrf2 pathway
+    
+-------------------------
+== Other todos
+Am I slow CYP2D6
+    need genetic sequencing
+Read Dirty genes
+Do I need Vitamin E ? (antioxidant)
+How to increase glutathione
+    NAC, Vitamin C, what else
+    liposomal glutathione ?
+    carnivore diet ?
+What's NAD+ and NMN
+    Can they support the liver
+Need to upregulate NOQ1 gene (quinone to hydroquinone)

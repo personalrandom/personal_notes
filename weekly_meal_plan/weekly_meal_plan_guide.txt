@@ -1,0 +1,75 @@
+Weekly meal plan Guide 
+Need 9 meals per week
+
+1 chicken dish (3 meals)
+1 fish or meat dish (3 meals)
+	(Every other week alternate)
+	Or agneau or boulettes or 
+Some of the following:
+	Pizza
+	sandwish 
+	chicken/steak haché/thon/eggs/veggie only + some accompagnement
+	TODO : add burger option
+
+
+Special dishes
+	Fritures
+	saumon
+	escalope milanaise
+	Carbonara
+
+multi meal accompagnements
+	zaalouk
+	taktouka
+	bissara
+	stir fried legumes in general
+
+-----
+Meals can be :
+	Meat + feculant + veggie
+		veggies : stir fried/purée/oven baked
+	full dishes
+	sandwich based
+	pizza based
+	burger based
+	subway loaf style based
+	pasta based
+	friture based
+	salad based
+	
+----
+Try to change from time to time.
+
+Define dishes based on cultures :
+	Moroccan
+	French
+	Italian
+	Indian
+	Chinese ?
+	American
+	Spanish : paela; tortilla
+
+Define dishes based on food
+	Meats : chicken; red meat; fish; etc
+	Veggies : tomatoes; aubergines; peppers;etc
+	feculants : lentils, foul, jlbana, potatos
+	Greens : brocolli
+	
+Define dishes based on cooking method
+	stir fried
+	deep fried
+	baked in oven
+	mijoté
+
+Defined dishes based on type
+	full dishes
+	sandwich based
+	pizza based
+	burger based
+	subway loaf style based
+	pasta based
+	friture based
+	salad based
+
+Basics of cooking :
+	salt, fat, acid, heat

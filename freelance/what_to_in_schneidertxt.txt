@@ -1,0 +1,32 @@
+What to do in schneider :
+
+Try to build good relationships with :
+	Julien
+		Learn to be politically correct
+		Make these 1.5 years easier to handle
+	Milan
+		Has ego : try not to attack him too much
+	Fred 
+		Learn how to destroy someone with him
+	Tianyi
+		Learn how to explain and simplify
+			you will need this with brothers
+	Mark
+		Has lots of influence
+		Make him pastries
+		Byyn lih technically
+
+
+Expose yourself
+	Participate to any event where you can sell your expertise
+		Meetings; presentations; etc
+
+Meet people you work with
+	Dont avoid meeting potential clients
+		But remember : They're only future clients if you work with them
+
+Get the most experience on kernel :
+	Finish PCI-E
+	Finish IPC
+	Finish virtualisation
+	Solve all technical problems of P3Y

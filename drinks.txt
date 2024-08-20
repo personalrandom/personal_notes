@@ -1,0 +1,11 @@
+drinks
+
+limonade :
+	50ml pulco
+	rest water
+	2 teaspoon sugar
+	
+hot cacao
+300ml milk
+1 tablespoon chocolate
+1 teaspoon sugar

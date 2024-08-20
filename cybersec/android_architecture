@@ -1,0 +1,44 @@
+android architecture
+
+Search terms
+    android internals
+    android architecture books reddit
+    embedded android 
+==========
+= Books
+- Android internals :: a confectioner's cookbook
+- Android Security Internals An In-Depth Guide to Android’s Security Architecture
+- Embedded android
+- Inside the Android OS_ Building, Customizing, Managing and Operating Android System Services
+- Android Hacker's Handbook
+
+= Others
+!! security research papers on Android
+
+Android Internals course pdf
+https://ocw.cs.pub.ro/courses/_media/smd/cursuri/lecture-internals.pdf
+https://technologeeks.com/files/AnSec2.0.pdf
+    Android security
+https://technologeeks.com/Courses/Android-Excerpt.pdf
+    linux to android 
+    
+https://newandroidbook.com/TOC.html
+    android internals other books : table of content
+        can help you to know what to look for
+        
+https://zsmb.co/thoughts-about-state-handling-on-android/
+https://zsmb.co/thoughts-about-event-handling-on-android/
+
+a reddit article on android internals
+    https://www.reddit.com/r/androiddev/comments/ikl56a/the_internals_of_android_stack_architecture/
+
+Old google presentation of android architecture
+    https://www.youtube.com/watch?v=G-36noTCaiA&list=WL&index=69&t=140s&ab_channel=GoogleforDevelopers
+=======
+Being able to debug is nice
+    Do I need a dev platform to play with android ?
+        (instead of buying a phone)
+
+===============
+You need to learn hacking in general in linux before going to android
+    Easier environmnt + more open

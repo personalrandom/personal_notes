@@ -1,0 +1,22 @@
+android vulns
+
+= Types
+Framework
+System
+vendors :
+    arm mali driver (gpu)
+    mediatek 5g (firmware)
+    qualcomm drivers
+kernel
+    very little vulns here
+    more found in drivers
+chrome sandbox escape : this is OS related
+
+===
+https://source.android.com/docs/security/bulletin/asb-overview
+https://source.android.com/docs/security/overview/acknowledgements
+
+= Search terms
+Binary exploitation
+    + bug bounty
+exploit development
