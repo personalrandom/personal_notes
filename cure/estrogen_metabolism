@@ -66,8 +66,13 @@ NAD(P)H + H+ + a quinone  ⇌ NAD(P)+ + a hydroquinone
 SIRT1 activator : pterostilbene
 
 ==== Nrf2 supps
-Tamoxifen ?
+Tamoxifen
+    100mg = 6 times weaker than 20mg sulfo
+        Do not exceed 100mg (unless you have slow cyp2d6. To be confirmed)
+            See here https://www.ncbi.nlm.nih.gov/books/NBK574601/
+    Good
 Pterostilbene
+    Nope:like Resveratrol which is weaker than sulfo
 Sulforaphane
     https://www.reddit.com/r/Nootropics/comments/6anjnv/a_noncomprehensive_overview_of_sulforaphane_and/
     ref meta analysis study : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4736808/
@@ -76,6 +81,8 @@ Sulforaphane
     NAC and vitamin C reduce its effect
     I need 20mg to have x3 NQO1
     TODO : find the best supplement for this
+        need :  myrosinase enzyme
+        what else ?
 ==== Sources
 https://www.geneticlifehacks.com/detox-genes-nqo1/
 https://www.geneticlifehacks.com/nrf2-pathway/
