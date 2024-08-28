@@ -1,20 +1,29 @@
 b12 : kidneys, meat
     + supplement 1500mcg x 4
 methylfolate : supplement 6*1.7mg
-    Take 4 until we receive
 b2 : supplement 100mg/day
     divide into two doses
-magnesium : supplement 4 * 100mg magnesium glycinate
+magnesium : supplement 3 * 100mg magnesium glycinate
+    Cofactor for COMT
+    1 morning
+    1 lunch
+    1 dinner
 
 creatine : 3g
     less load on mthfr
-Taurine 4.5g: 2 small scoops
+Taurine 2g: 1 small scoop
     for BHMT
+    Note : CBS heterozygous may mean you already have too much taurine.
+    Theory : supplementing this will increase glutathione ?
 vitamin C : 4 scoops (1600mg)
     for PON1 + antioxidant
         TODO : recheck PON1 claim
-            maybe reduce to 100mg
-            maybe you don't even need
+            negligeable
+            done by reducing oxidants
+    => Remove
+       Not needed on carnivore, just eat rarish steak
+       Bad : Increases oxalates
+       Bad : Increases iron consumption (high in meat already)
 NAC : 4 scoops (1500mg)
     Needed for lowering inflammation
     Make sure to get enough copper from liver (200g/week)
@@ -22,7 +31,7 @@ NAC : 4 scoops (1500mg)
         will keep until we heal from inflammation for now.
 Vitamin E ?
     antioxidant
-TUDCA 2
+TUDCA 2 (on empty stomach : morning, before sleep)
     liver support
 vitamin d3 : 1
 Iodine : 1
@@ -39,13 +48,17 @@ Cost of supplements : 55e/month
 
 Prostaphane 2x10mg/day
     54e/month
-    I think : take when you wake up
-        NAC and vitamin C before you sleep, half the dose of NAC/vitaminC
+
 BPC157, TB500
 Thymosin alpha 1
     use until less inflammation
 
-TODO : divide into 3 times : lunch, dinner, before sleeping
+juice 1/2 lemon morning and night
+    (if you feel oxalate dumping symptoms: painful urination)
+        if too bad, drink green tea
+            black tea is even higher in oxalates
+                https://apjcn.nhri.org.tw/server/APJCN/11/4/298.pdf?next=/answers/supplements-food-risk-of-kidney-stones/supplements-kidney-stones/#:~:text=As%20teabags%20contain%20between%201.95,oxalate)%20per%20cup%20of%20tea.
+
 -----------
 Take after meals
 == Same
@@ -67,7 +80,13 @@ calcium d glucarate : 2
 creatine : 1
 vitamin d3 : 1
 Iodine : 1
-
+------------
+Timing:
+Supplements timing : 
+- Tudca     : wakeup, 2h before dinner
+- Magnesium : wakeup, 2h before dinner, 2 before sleep
+- vitamin d : with dinner
+- all others: 15 minutes before meals
 --------
 == Maybe unecessary
 
@@ -76,8 +95,13 @@ iode : supplement
 ---------
 == Not supplemented
 choline : 6 eggs/day
+    converts to TMG
+    BHMT
+    
 b3 : beef, chicken
 b6 : beef, chicken
+    I get just enough = Good 
+    I have fast CBS so I shouldn't take too much
 b5 : beef
 zinc : beef, shrimp/calamar
     High Zinc helps keep copper low
@@ -112,3 +136,19 @@ source : https://www.reddit.com/r/MTHFR/comments/1730mw4/mthfr_a_supplement_stac
 bpc157, thymosin alpha, TB500
     3 bottles each in 10ml
     Thymosin will be dropped in 19 november.
+    
+=============
+=============
+= Carnivore low vitamins/minerals
+Thiamin, Manganese, Vitamin k2
+- Magnesium
+    malate : increases energy, dont take before sleeping
+    glycinate : has glycine in it
+        We already take waaay enough glycine from meats
+Potassium
+vitamin c : ok
+B6
+    I take around 3mg b6 from foods
+    Molybdenum ?
+B1 thiamin
+choline, molybenum, chromium, iodine, sulphur, and maybe chloride and fluoride
