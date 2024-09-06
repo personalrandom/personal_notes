@@ -1,0 +1,58 @@
+Metabolism of drugs I'm taking
+
+= Some useful terms
+GST : Glutathione S-transferase (aka GSH S-transferase)
+UGT : Glucuronosyltransferase
+    Start here : https://www.geneticlifehacks.com/phase-2-detoxification-ugts/
+SULT : Sulfotransferase
+    Start here : https://www.geneticlifehacks.com/sulfotransferases-sult-family-of-genes/
+NQO1 : NAD(P)H dehydrogenase
+    quinone to hydroquinone
+NADPH : used in NQO1 reaction
+HSD17B1: responsible for e1 to e2 (Bad)
+HSD17B2: responsible for e2 to e1 (Good)
+
+= Reference : estrogen
+Methylation patway : 2-OHE1 (prefered form)
+1- CYP1A1,
+2- COMT (methylation),
+2.B - CYP/Peroxidase : Quinones
+    Then NQO1 + GST
+3.1- SULT
+    which SULT are responsible for this ?
+3.2- UGT
+    This is the most responsible
+    TODO : which one ?
+    
+
+
+Methylation patway : 4-OHE1 (less prefered form)
+1- CYP1B1,
+2- COMT (methylation), 
+3- sulphate/glucuronide.
+
+Minor pathway : 16a-OHE1
+1- CYP3A4
+2- HSD17B1 to Estriol
+
+Storage pathway : estrogen sulfate
+The most abundant form of estrogen
+- STS (steroid sulfate) activates it 
+    reverses sulfation
+
+Lipid estrogen ??
+TODO
+
+= Tamoxifen
+
+    UGT2B15 ?
+    SULT1A1?
+= Toremifene
+n-demethylation, hydroxilation : cyp3a4, cyp3a in general
+
+
+= Trenbolone
+1- SULT
+    which SULT are responsible for this ?
+2- UGT
+    which UGT ?
