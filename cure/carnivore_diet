@@ -1,6 +1,7 @@
 b12 : kidneys, meat
-    + supplement 1500mcg x 4
-methylfolate : supplement 9*1.7mg
+    + supplement 5000mcg * 2
+    for MTRR
+methylfolate : supplement 15mg * 2
 b2 : supplement 100mg/day
     divide into two doses
 magnesium : supplement 4 * 100mg magnesium glycinate
@@ -48,6 +49,9 @@ Cost of supplements : 55e/month
 
 Prostaphane 2x10mg/day
     54e/month
+    Induces NQO1, Nrf2
+    Induces COMT (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6275259/)
+    Inhibits CYP1B1 (Good)
 
 Potassium 1g x 3 /day (+2000mg from foods)
     needed on carnivore + needed for extra methylfolate
@@ -150,38 +154,94 @@ Thiamin, Manganese, Vitamin k2
 Vitamin k2
     Eggs 400mcg
     cheese 120mcg
+    Beef : 70mcg
+    also high in liver
     RDI : 100-300mcg
     OK
+    Ok beef only
     
 - Magnesium
     malate : increases energy, dont take before sleeping
-    glycinate : has glycine in it
-        We already take waaay enough glycine from meats
+    supplement glycinate : has glycine in it
+
 Potassium
-vitamin c : ok
-B6
-    I take around 3mg b6 from foods
+    supplement
+vitamin c 
+    Todo : is it a cofactor in mthfr ?
+    COMT inhibitor : https://pubmed.ncbi.nlm.nih.gov/9054258/
+    more methylfolate absorbtion ? https://sci-hub.scrongyao.com/10.1007/s00394-012-0359-8
+        through BH4 recycling : https://www.psychiatrist.com/JCP/article/_layouts/ppp.psych.controls/BinaryViewer.ashx?Article=/JCP/article/Pages/2008/v69n09/v69n0901.aspx&Type=Article
+
 B1 thiamin
     30% from beef
     12% from eggs
     Maybe ok ( on carnivore you need 50%)
+    0.55mg from 1kg beef
+    => Will supplement 100mg/day (3-5% is bioavailable)
+B2
+    rdi : 1.3mg
+    0.9mg/100g beef
+    0.3mg/egg
+B3
+    30mg from beef (rdi = 16mg)
+B5
+    rdi : 5mg
+    1.3mg/100g beef
+B6
+    pyridoxine from animal foods
+    3mg from diet (rdi = 1.5mg)
+    4mg in 1kg beef : OK
+    converted to P5P in the liver AKA : Pyridoxal phosphate, PLP, pyridoxal 5'-phosphate
+    shouldn't have too much because of CBS gene
+B7 (Biotin)
+    rdi : 30mcg
+    3.8mcg/100g beef
+    10mcg/egg
+B9
+    rdi : 400 mcg
+    22mcg/egg
+    250mcg/100g liver
+    24mcg/100g lamb
+    7mcg/100g beef
+    
+B12
+    rdi : 2.4mcg
+    2.6mcg/100g beef
+    0.6mcg/egg
+    
+Zinc
+    35mg from diet (rdi = 14mg)
+    Same with beef only : OK
+
 Vitamin E
-    For PUFAs
-    72% from eggs
-    35% from beef
+    on 6.8mg PUFA days : 4.3mg Vitamin E : OK
+    on 9mg PUFA days : 5.4mg Vitamin E : OK
 
 choline, molybenum, chromium, iodine, sulphur, and maybe chloride and fluoride
+choline 
+    Need : 1000mg
+        Can do : 600mg TMG + 500mg choline
+    Around : 100mg/100g beef
+    BHMT gene (to use betaine in mthfr cycle) : ok
+    CHDH gene (converts choline to betaine) : rs12676, rs1025689
+        ref : https://www.wellesu.com/10.1371/journal.pone.0036047
 lithium?
 selenium ( B2 activation)
     Getting 400mcg from food (more than 400% rdi)
+    200mcg in 1Kg beef : OK
 Molybdenum, 
     B2 activation (which is needed by B12)
     enough from eggs + liver
 Manganese
     SOD enzyme
     0 from diet
+    TODO
 
 vitamin A
     cheese (50%)
     eggs (72%)
     + liver sometimes
+
+biotin
+    I think ok
+Boron ?

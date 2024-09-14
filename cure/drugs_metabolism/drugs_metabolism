@@ -14,28 +14,41 @@ HSD17B2: responsible for e2 to e1 (Good)
 
 = Reference : estrogen
 Methylation patway : 2-OHE1 (prefered form)
-1- CYP1A1,
-2- COMT (methylation),
+1- CYP1A1,1A2, 3A4
+
+2- COMT (methylation) to 2-MeO
 2.B - CYP/Peroxidase : Quinones
-    Then NQO1 + GST
+    Reverted by NQO1
+    Can be excreted by GST
+2.C major: UGT1A8, UGT1A9, less : UGT1A1, UGT1A3
 3.1- SULT
     which SULT are responsible for this ?
 3.2- UGT
-    This is the most responsible
-    TODO : which one ?
-    
+    Source : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1064083/
+    Source : https://pubmed.ncbi.nlm.nih.gov/15472229/
+    major : 1A8, 1A9
+    less : 1A1, 1A10, 1A3
+
+    https://hmdb.ca/metabolites/HMDB0000010
+* : Interesting info 
+    Raises SHBG.
 
 
 Methylation patway : 4-OHE1 (less prefered form)
 1- CYP1B1,
-2- COMT (methylation), 
-3- sulphate/glucuronide.
+2- COMT (methylation),
+2.B- UGT1A8, UGT2B7
+3.1- sulphate
+3.2- glucuronide
+    major : 1A8, 1A9
+    less : 1A1, 1A10, 1A3
 
 Minor pathway : 16a-OHE1
 1- CYP3A4
 2- HSD17B1 to Estriol
 
 Storage pathway : estrogen sulfate
+    SULT1A1, SULT1E1
 The most abundant form of estrogen
 - STS (steroid sulfate) activates it 
     reverses sulfation
@@ -43,16 +56,65 @@ The most abundant form of estrogen
 Lipid estrogen ??
 TODO
 
+=== My genes
+CYP1A1 : looks ok, hetero at rs1056836
+CYP1A2 : Medium : OK
+CYP1B1 : Good, some are missing
+CYP3A4 : Good, some are missing
+NQO1 : medium
+UGT1A1 : Good
+UGT2B7: Bad
+UGT1A8: missing : rs17863762 (UGT1A8*3), frequency =  0.022
+    Should be ok it's rare
+SULT : MISSING
+
 = Tamoxifen
+Full pathway : https://www.pharmgkb.org/pathway/PA145011119
+== Ref : torem_tamox_metabolism.pdf
+== Phase 1 :
+n-demethylation : cyp3a4 (66%) CYP2D6(25%)
+    4-hydroxylation : CYP2D6
+4-hydroxylation : CYP2D6(93%)
+    n-demethylation : CYP3A4(69%),  CYP2D6(25%)
 
-    UGT2B15 ?
-    SULT1A1?
+Conclusion : heavily impacted by CYP2D6
+== Phase 2 :
+- Glucuronidation :
+    https://sci-hub.scrongyao.com/10.1124/dmd.107.017145
+    - Major : 1A10, 1A8, 2B7
+    - Minor : 1A3 1A1 1A7 1A9
+    
 = Toremifene
-n-demethylation, hydroxilation : cyp3a4, cyp3a in general
+== Ref : torem_tamox_metabolism.pdf
+== Phase 1 : 
+n-demethylation to NDM-TOR : cyp3a4 (and 3A5)
+    4-hydroxylation to 4OH-NDM-TOR : CYP2D6(79%), CYP2C9(21%)
+4-hydroxylation to 4OH-TOR: CYP2C9(79%), CYP2D6(13%)
+    n-demethylation to 4OH-NDM-TOR : CYP3A4
 
+Conclusion : Inhibition of CYP2D6 lowers metabolites by 25% : not very impacted.
 
-= Trenbolone
+TODO : Binding affinity and importance of each metabolite
+     4OH-TOR and 4OH-NDM-TOR are important
+
+== Phase 2 :
+- Glucuronidation :
+    https://sci-hub.scrongyao.com/10.1124/dmd.114.058016
+    - Not clear : 1A4, 1A3, 1A1, 1A8
+    
+
+=== My genes
+CYP2D6 : OK, missing some
+CYP3A4 : OK, missing : rs4987161, rs4986909, rs4986910
+CYP3A5 : Medium, missing some
+CYP2C9 : OK
+
+== Phase 2 :
+
+= Trenbolone, c19 steroids in general
 1- SULT
-    which SULT are responsible for this ?
+    Minor pathway : SULT2A2
 2- UGT
-    which UGT ?
+    UGT2B17, UGT2B15
+        less : UGT2B7
+        maybe : UGT2A1

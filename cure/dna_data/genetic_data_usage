@@ -1,0 +1,27 @@
+Genetic data study
+
+== Equivalences
+A : T
+G : C
+
+
+Be skeptical about orientation when :
+an (A;A) genotype call when the alleles are A and T
+a (T;T) genotype call when the alleles are A and T
+a (C;C) genotype call when the alleles are C and G
+a (G;G) genotype call when the alleles are C and G
+
+
+What about D and I ?
+    Deletion : _,_
+    Insertion : 
+    
+------------
+Wild type homozygous : no mutation
+mutant hetero : one allele mutated
+mutant homo : 2 alleles mutated
+
+Example : G=0.24041, C=0.75
+    C is wild type common one : 75% population
+    G is mutant : 24% population 
+-------
