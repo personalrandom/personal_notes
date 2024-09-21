@@ -25,3 +25,21 @@ Example : G=0.24041, C=0.75
     C is wild type common one : 75% population
     G is mutant : 24% population 
 -------
+=======
+
+= Sequencing.com data :
+SNVs/SNPs (single nucleotide variants)
+INDELs (insertion and deletion variants)
+CNVs (copy number variations)
+SVs (structural variations)
+
+in Genome VCF format
+
++ in raw txt file format
+
+---------------
+Formats explained in detail https://www.reddit.com/r/genetics/comments/xkxyit/what_genome_package_to_download_cnv_indel_snp_bam/
+How to convert BAM file to snps https://www.geneticlifehacks.com/convert-whole-genome-file/
+
+Current reference genome used by sequencing is GRCh38.p14 aka hg38 patch 14
+https://sequencing.com/knowledge-center/researchers/reference-genomes

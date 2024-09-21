@@ -60,13 +60,29 @@ TODO
 CYP1A1 : looks ok, hetero at rs1056836
 CYP1A2 : Medium : OK
 CYP1B1 : Good, some are missing
+    rs1056827 : CC
 CYP3A4 : Good, some are missing
 NQO1 : medium
 UGT1A1 : Good
 UGT2B7: Bad
 UGT1A8: missing : rs17863762 (UGT1A8*3), frequency =  0.022
     Should be ok it's rare
-SULT : MISSING
+SULT : 
+    1A1 : 
+        rs1042028 : CT
+        rs1801030 : CT
+        rs1042157 : AG
+    2A1 :
+        rs2637125 : GG
+        rs1402467 : CG
+    1E1 :
+        rs3736599 : CT
+GSTM1 : 
+    rs366631 : AA (Bad)
+HSD17B1 :
+    rs676387 : CC (typical)
+GPER1 :
+    rs11544331 : CC (typical)
 
 = Tamoxifen
 Full pathway : https://www.pharmgkb.org/pathway/PA145011119
