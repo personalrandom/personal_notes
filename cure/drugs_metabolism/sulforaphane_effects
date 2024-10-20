@@ -1,0 +1,28 @@
+sulforaphane interaction with phase 1 metabolism
+
+1- sulforaphane inhibitor of cyp3A4
+    This is Good : less 16a-OH
+    antagonist of SXR( aka PXR) : SXR is responsible of upregulating CYP3A4
+    Ketoconazole does the same thing for CYP3A4
+    Source : https://molpharm.aspetjournals.org/content/71/1/220
+
+2- Sulforaphane metabolites can decrease CYP2D6
+    Very small inhibition of CYP3A4, CYP1A2, CYP2B6
+    Weakly interacted with CYP2D6
+    Conclusion : nothing to see here, just metabolites effect at max concentration
+    Source : https://onlinelibrary.wiley.com/doi/abs/10.1002/ptr.5232
+
+3- Sulforaphane and analogues inhibit CYP1A1 and CYP1A2 induction by benzopyrene
+    In breast cancer cells but not liver
+    Small inhibition of the effect of benzopyrene
+    Sulfo induces CYP1A1 in hepatic cancer cells
+    Conclusion : nothing to see here, cancer cells act different and doses are huge to achieve small decrease
+    Source : https://onlinelibrary.wiley.com/doi/abs/10.1002/jbt.20259
+    
+4- Sulforaphane induces CYP1A1 in human hepa cancer cell
+    Conclusion : same as 3, nothing to see here
+    source :https://www.sciencedirect.com/science/article/abs/pii/S0304383508008124
+    
+5- Sulforaphane blocks induction of TCDD in some liver cancer cells
+    Conclusion : doesn't mean anything in our case
+    source : https://www.sciencedirect.com/science/article/abs/pii/S0041008X13001312
